@@ -4,7 +4,7 @@ import {
 } from "../Types/AdminPanelTypes";
 
 export const AdminSidePanelReducer = (state = { show: false }, actions) => {
-  const { payload, type } = actions;
+  const { type } = actions;
   switch (type) {
     case OPEN_ADMIN_SIDE_PANEL:
       return { show: true };

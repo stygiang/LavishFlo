@@ -157,7 +157,6 @@ const Sidebar = () => {
     t1.play();
   }, [show]);
 
-  const SidebarHandler = () => {};
   const ButtonHandler = () => {
     console.log("hello");
     if (show) {

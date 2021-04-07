@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styled, { css } from "styled-components";
 import { config } from "../../config";
 import { motion } from "framer-motion";
-import EditProjectModeal from "./Components/models/EditProjectModeal";
+
 import { useDispatch, useSelector } from "react-redux";
 import { editProjectOpen } from "../../actions/modelActions";
 import gsap from "gsap";
@@ -127,8 +127,8 @@ const Status = styled(Text)`
 `;
 const Forms = () => {
   const dispatch = useDispatch();
-  const EditProjectModel = useSelector((s) => s.editProjectModel);
-  const { show } = EditProjectModel;
+  /* const EditProjectModel = useSelector((s) => s.editProjectModel);
+  const { show } = EditProjectModel; */
   const EditModelShow = () => {
     console.log("hello");
     dispatch(editProjectOpen());

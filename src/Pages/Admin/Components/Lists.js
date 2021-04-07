@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { config } from "../../../config";
 import Projects from "./Projects";
-import { Line, Bar } from "react-chartjs-2";
+// import { Line, Bar } from "react-chartjs-2";
 import IncomeSummary from "./IncomeSummary";
 import OrderStatus from "./OrderStatus";
 import TotalRevenue from "./TotalRevenue";

@@ -1,6 +1,7 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
+// import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 import EditProjectModeal from "./Components/models/EditProjectModeal";
 
@@ -12,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Models = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const ModelShow = useSelector((s) => s.editProjectModel);
   const { show } = ModelShow;
   return <Container>{show && <EditProjectModeal />}</Container>;

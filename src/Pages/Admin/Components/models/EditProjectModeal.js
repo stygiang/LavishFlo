@@ -143,8 +143,8 @@ const Button = styled.p`
 
 const EditProjectModel = () => {
   const dispatch = useDispatch();
-  const ModelShow = useSelector((s) => s.editProjectModel);
-  const { show } = ModelShow;
+  // const ModelShow = useSelector((s) => s.editProjectModel);
+  // const { show } = ModelShow;
   const EditModelExit = () => {
     dispatch(editProjectClose());
   };
