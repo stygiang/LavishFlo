@@ -4,7 +4,7 @@ import {
 } from "../Types/ModelTypes";
 
 export const EditProjectReducer = (state = { show: false }, actions) => {
-  const { payload, type } = actions;
+  const { type } = actions;
   switch (type) {
     case OPEN_EDIT_PROJECT_MODAL:
       return { show: true };

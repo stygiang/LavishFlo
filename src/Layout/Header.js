@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import styled, { css } from "styled-components";
+import React, { useState } from "react";
+import styled from "styled-components";
 import { config } from "../config";
 import Navbar from "./Navbar";
 import validator from "validator";

@@ -11,16 +11,15 @@ const Container = styled.div`
 const MasonaryLayout = () => {
   return (
     <Container>
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-      <img src='images/Header.jpg' />
-
-      <img src='images/Header.jpg' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
+      <img src='images/Header.jpg' alt='head' />
     </Container>
   );
 };

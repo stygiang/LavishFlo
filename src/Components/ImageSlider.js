@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import styled from "styled-components";
 import ImgSlide from "./ImgSlide";
 
@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 100%;
   height: 500px;
 `;
+
 const photos = [
   "images/Header.jpg",
   "images/picture1.jpg",
